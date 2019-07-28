@@ -7,7 +7,7 @@
 class CardGame
 
 
-  def checkforAce(card) ### maybe we should use "==" instaed of "=" to test for equality
+  def checkforAce(card) ### maybe we should use "==" instead of "=" to test for equality
     if card.value = 1
       return true
     else
